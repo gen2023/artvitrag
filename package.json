@@ -2,7 +2,7 @@
   "name": "artvitrag",
   "version": "0.1.17",
   "author": "Romanko Evgen <gen2023@yandex.ru>,<genodessa@gmail.com>",
-  "homepage": "https://gen2023.github.io/artvitrag",
+  "homepage": ".",
   "private": true,
   "dependencies": {
     "@reduxjs/toolkit": "^1.4.0",

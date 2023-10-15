@@ -2,71 +2,71 @@
     {
         "id":"animals",
         "category":"Animals",
-        "picture":"http://artvitrag.hol.es/images/pic/animals/51-61(1)s.jpg"
+        "picture":"http://artvitrag.com.ua/images/pic/animals/51-61(1)s.jpg"
     },
     {
         "id":"architecture",
         "category":"architecture",
-        "picture":"http://artvitrag.hol.es/images/pic/architecture/30-40(7)s.jpg"
+        "picture":"http://artvitrag.com.ua/images/pic/architecture/30-40(7)s.jpg"
     },
     {
         "id":"birds",
         "category":"Birds",
-        "picture":"http://artvitrag.hol.es/images/pic/avifauna/30-40(8)s.jpg"
+        "picture":"http://artvitrag.com.ua/images/pic/avifauna/30-40(8)s.jpg"
     },
     {
         "id":"childish",
         "category":"childish",
-        "picture":"http://artvitrag.hol.es/images/pic/childish/13-18(2)s.jpg"
+        "picture":"http://artvitrag.com.ua/images/pic/childish/13-18(2)s.jpg"
     },
     {
         "id":"clock",
         "category":"Clock",
-        "picture":"http://artvitrag.hol.es/galleryReact/category/clock.jpg"
+        "picture":"http://artvitrag.com.ua/galleryReact/category/clock.jpg"
     },
     {
         "id":"dishesAndInterior",
         "category":"Dishes and interior items",
-        "picture":"http://artvitrag.hol.es/galleryReact/category/plate.jpg"
+        "picture":"http://artvitrag.com.ua/galleryReact/category/plate.jpg"
     },
     {
         "id":"candlesticksAndlamps",
         "category":"Candlesticks and lamps",
-        "picture":"http://artvitrag.hol.es/galleryReact/category/candlesticksAndlamps.jpg"
+        "picture":"http://artvitrag.com.ua/galleryReact/category/candlesticksAndlamps.jpg"
     },
     {
         "id":"fishes",
         "category":"fishes",
-        "picture":"http://artvitrag.hol.es/images/pic/fishes/30-40(19)s.jpg"
+        "picture":"http://artvitrag.com.ua/images/pic/fishes/30-40(19)s.jpg"
     },
     {
         "id":"frame",
         "category":"frame",
-        "picture":"http://artvitrag.hol.es/galleryReact/category/frame.jpg"
+        "picture":"http://artvitrag.com.ua/galleryReact/category/frame.jpg"
     },
     {
         "id":"insects",
         "category":"insects",
-        "picture":"http://artvitrag.hol.es/images/pic/insects/30-40(16)s.jpg"
+        "picture":"http://artvitrag.com.ua/images/pic/insects/30-40(16)s.jpg"
     },
     {
         "id":"landscape",
         "category":"landscape",
-        "picture":"http://artvitrag.hol.es/images/pic/landscape/35-45(1)s.jpg"
+        "picture":"http://artvitrag.com.ua/images/pic/landscape/35-45(1)s.jpg"
     },
     {
         "id":"portrait",
         "category":"Portrait, human",
-        "picture":"http://artvitrag.hol.es/images/pic/portrait_human/(2)s.jpg"
+        "picture":"http://artvitrag.com.ua/images/pic/portrait_human/(2)s.jpg"
     },
     {
         "id":"StillLife",
         "category":"Still life",
-        "picture":"http://artvitrag.hol.es/images/pic/still_life/40-40(3)s.jpg"
+        "picture":"http://artvitrag.com.ua/images/pic/still_life/40-40(3)s.jpg"
     },
     {
         "id":"magnets",
         "category":"Magnets",
-        "picture":"http://artvitrag.hol.es/images/pic/still_life/40-40(3)s.jpg"
+        "picture":"http://artvitrag.com.ua/images/pic/still_life/40-40(3)s.jpg"
     }
     ]

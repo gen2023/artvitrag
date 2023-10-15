@@ -1,30 +1,30 @@
 {
   "files": {
-    "main.css": "/artvitrag/static/css/main.0d04a8ee.chunk.css",
-    "main.js": "/artvitrag/static/js/main.8210f645.chunk.js",
-    "main.js.map": "/artvitrag/static/js/main.8210f645.chunk.js.map",
-    "runtime-main.js": "/artvitrag/static/js/runtime-main.3656735e.js",
-    "runtime-main.js.map": "/artvitrag/static/js/runtime-main.3656735e.js.map",
-    "static/css/2.3d72dcb8.chunk.css": "/artvitrag/static/css/2.3d72dcb8.chunk.css",
-    "static/js/2.d5068bb0.chunk.js": "/artvitrag/static/js/2.d5068bb0.chunk.js",
-    "static/js/2.d5068bb0.chunk.js.map": "/artvitrag/static/js/2.d5068bb0.chunk.js.map",
-    "index.html": "/artvitrag/index.html",
-    "precache-manifest.8a107cfd58c3405edbc7e5eadf15992a.js": "/artvitrag/precache-manifest.8a107cfd58c3405edbc7e5eadf15992a.js",
-    "service-worker.js": "/artvitrag/service-worker.js",
-    "static/css/2.3d72dcb8.chunk.css.map": "/artvitrag/static/css/2.3d72dcb8.chunk.css.map",
-    "static/css/main.0d04a8ee.chunk.css.map": "/artvitrag/static/css/main.0d04a8ee.chunk.css.map",
-    "static/js/2.d5068bb0.chunk.js.LICENSE.txt": "/artvitrag/static/js/2.d5068bb0.chunk.js.LICENSE.txt",
-    "static/media/contact.css": "/artvitrag/static/media/contact.66009cfa.png",
-    "static/media/Modal.css": "/artvitrag/static/media/icon-close.c31ab9cf.svg",
-    "static/media/home.css": "/artvitrag/static/media/intro.e2f38849.jpg",
-    "static/media/mk.css": "/artvitrag/static/media/one.34af8eba.jpg",
-    "static/media/about.css": "/artvitrag/static/media/two.58f44017.jpg"
+    "main.css": "./static/css/main.df54d694.chunk.css",
+    "main.js": "./static/js/main.1680a0f7.chunk.js",
+    "main.js.map": "./static/js/main.1680a0f7.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.7907e67b.js",
+    "runtime-main.js.map": "./static/js/runtime-main.7907e67b.js.map",
+    "static/css/2.3d72dcb8.chunk.css": "./static/css/2.3d72dcb8.chunk.css",
+    "static/js/2.d5068bb0.chunk.js": "./static/js/2.d5068bb0.chunk.js",
+    "static/js/2.d5068bb0.chunk.js.map": "./static/js/2.d5068bb0.chunk.js.map",
+    "index.html": "./index.html",
+    "precache-manifest.69dba0e1b215494c9e06ba0a3970a94b.js": "./precache-manifest.69dba0e1b215494c9e06ba0a3970a94b.js",
+    "service-worker.js": "./service-worker.js",
+    "static/css/2.3d72dcb8.chunk.css.map": "./static/css/2.3d72dcb8.chunk.css.map",
+    "static/css/main.df54d694.chunk.css.map": "./static/css/main.df54d694.chunk.css.map",
+    "static/js/2.d5068bb0.chunk.js.LICENSE.txt": "./static/js/2.d5068bb0.chunk.js.LICENSE.txt",
+    "static/media/contact.css": "./static/media/contact.66009cfa.png",
+    "static/media/Modal.css": "./static/media/icon-close.c31ab9cf.svg",
+    "static/media/home.css": "./static/media/intro.e2f38849.jpg",
+    "static/media/mk.css": "./static/media/one.34af8eba.jpg",
+    "static/media/about.css": "./static/media/two.58f44017.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.3656735e.js",
+    "static/js/runtime-main.7907e67b.js",
     "static/css/2.3d72dcb8.chunk.css",
     "static/js/2.d5068bb0.chunk.js",
-    "static/css/main.0d04a8ee.chunk.css",
-    "static/js/main.8210f645.chunk.js"
+    "static/css/main.df54d694.chunk.css",
+    "static/js/main.1680a0f7.chunk.js"
   ]
 }
