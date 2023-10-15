@@ -22,6 +22,8 @@ const VideoGallery = ({ image,name,onClick,video,description }) => {
       <img
         src={image}
         alt={name}
+        width="210px"
+        height="210px"
       />
       </div>
       <div className="nameVideo"> {name} </div>

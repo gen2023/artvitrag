@@ -39,8 +39,8 @@ toggleModal = (name,video,description) => {
   }));
 };
 handleImageClick = (name,video,description) => {
-  console.log("hi")
-    console.log(name);
+  //console.log("hi")
+    //console.log(name);
     // console.log(name);
     // console.log(description);
   this.toggleModal(name,video,description);

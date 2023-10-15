@@ -23,6 +23,7 @@ import GalleryImage from '../../Pages/GalleryImage';
 import MyPhoto from '../../Pages/MyPhoto';
 import WorkPhoto from '../../Pages/WorkPhoto';
 import Mk from '../../Pages/Mk';
+import AdminLoginPage from '../../Pages/admin/login';
 
 import textPageRu from '../../json/ru/navigation.json';
 import textPageEn from '../../json/en/navigation.json';
@@ -102,6 +103,7 @@ class Navigation extends Component {
             path={routes.contact}
             render={props => <ContactPage {...props} />}
           />
+           <Route path={routes.admin} component={AdminLoginPage} />
           <Route
           render={props => <NotFoundPage {...props} />}
           />

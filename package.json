@@ -1,7 +1,7 @@
 {
   "name": "artvitrag",
   "version": "0.1.17",
-  "author": "Romanko Evgen <gen2023@yandex.ru>",
+  "author": "Romanko Evgen <gen2023@yandex.ru>,<genodessa@gmail.com>",
   "homepage": "https://gen2023.github.io/artvitrag",
   "private": true,
   "dependencies": {
@@ -18,14 +18,14 @@
     "redux-persist": "^6.0.0"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "react-scripts --openssl-legacy-provider start",
+    "build": "react-scripts --openssl-legacy-provider build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "precommit": "lint-staged",
-    "eslint": "node_modules/.bin/eslint src/"
+    "eslint": "eslint src/"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -46,5 +46,15 @@
     "react-loader-spinner": "^3.1.14",
     "react-redux": "^7.2.1",
     "redux": "^4.0.5"
+  },
+  "description": "<i>\"version\": \"0.1.12\",</i>",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gen2023/artvitrag.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gen2023/artvitrag/issues"
   }
 }

@@ -10,6 +10,6 @@ export default {
     myPhoto: '/my_photo',
     workPhoto: '/work_photo',
     mk: '/mk',
-
+    admin: '/admin',
   };
   
