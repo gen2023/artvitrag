@@ -1,0 +1,824 @@
+[
+    {
+        "id":"animals",
+        "category":"Тварини",
+        "image":[
+            {
+                "name":"Котяче кохання",
+                "large": "http://artvitrag.com.ua/galleryReact/gallery/animals/Cats_in_love.jpg",
+                "small":"http://artvitrag.com.ua/galleryReact/gallery/animals/Cats_in_love.jpg",
+                "size":"10x15 cm (4x6 inches)"
+            },
+            {
+                "name":"Кохання під місяцем",
+                "large":"http://artvitrag.com.ua/galleryReact/gallery/animals/love_under_the_moon.jpg",
+                "small":"http://artvitrag.com.ua/galleryReact/gallery/animals/love_under_the_moon.jpg",
+                "size":"10x15 cm (4x6 inches)"
+            },
+            {
+                "name":"Золотий кіт",
+                "large":"http://artvitrag.com.ua/galleryReact/gallery/animals/Gold_cat.jpg",
+                "small":"http://artvitrag.com.ua/galleryReact/gallery/animals/Gold_cat.jpg",
+                "size":"10x15 cm (4x6 inches)"
+            },
+            {
+                "name":"Чорний кіт",
+                "large":"http://artvitrag.com.ua/galleryReact/gallery/animals/Black_cats.jpg",
+                "small":"http://artvitrag.com.ua/galleryReact/gallery/animals/Black_cats.jpg",
+                "size":"10x15 cm (4x6 inches)"
+            },
+            {
+                "name":"Чорно-білий кіт",
+                "large":"http://artvitrag.com.ua/galleryReact/gallery/animals/Black_and_White_cat.jpg",
+                "small":"http://artvitrag.com.ua/galleryReact/gallery/animals/Black_and_White_cat.jpg",
+                "size":"10x15 cm (4x6 inches)"
+            },
+            {
+                "name":"Кумедний слон",
+                "large":"http://artvitrag.com.ua/galleryReact/gallery/animals/Funny_elephant.jpg",
+                "small":"http://artvitrag.com.ua/galleryReact/gallery/animals/Funny_elephant.jpg",
+                "size":"13x18 cm (5x7 inches)"
+            },
+            {
+                "name":"Кохання",
+                "large":"http://artvitrag.com.ua/galleryReact/gallery/animals/Love.jpg",
+                "small":"http://artvitrag.com.ua/galleryReact/gallery/animals/Love.jpg",
+                "size":"13x18 cm (5x7 inches)"
+            },
+            {
+                "name":"Сумна сова",
+                "large":"http://artvitrag.com.ua/galleryReact/gallery/animals/Pensive_owl.jpg",
+                "small":"http://artvitrag.com.ua/galleryReact/gallery/animals/Pensive_owl.jpg",
+                "size":"13x18 cm (5x7 inches)"
+            },
+            {
+                "name":"Кінь",
+                "large":"http://artvitrag.com.ua/galleryReact/gallery/animals/horse.jpg",
+                "small":"http://artvitrag.com.ua/galleryReact/gallery/animals/horse.jpg",
+                "size":"30x40 cm (12x16 inches)"
+            }
+    ]
+    },
+    {
+        "id":"architecture",
+        "category":"архітектура",
+        "image":[
+            {
+                "name":"Нічне місто",
+                "large":"http://artvitrag.com.ua/galleryReact/gallery/architecture/Night_town.jpg",
+                "small":"http://artvitrag.com.ua/galleryReact/gallery/architecture/Night_town.jpg",
+                "size":"15х20 cm (6х8 inches)"
+            },
+            {
+                "name":"Криві будиночки",
+                "large":"http://artvitrag.com.ua/galleryReact/gallery/architecture/Crooked_Houses.jpg",
+                "small":"http://artvitrag.com.ua/galleryReact/gallery/architecture/Crooked_Houses.jpg",
+                "size":"15х20 cm (6х8 inches)"
+            },
+            {
+                "name":"Робоче селище",
+                "large":"http://artvitrag.com.ua/galleryReact/gallery/architecture/Working_Village.jpg",
+                "small":"http://artvitrag.com.ua/galleryReact/gallery/architecture/Working_Village.jpg",
+                "size":"30х30 cm (12х12 inches)"
+            },
+            {
+                "name":"Місто на горі",
+                "large":"http://artvitrag.com.ua/galleryReact/gallery/architecture/City_on_the_mountain.jpg",
+                "small":"http://artvitrag.com.ua/galleryReact/gallery/architecture/City_on_the_mountain.jpg",
+                "size":"40х30 cm (16х12 inches)"
+            },
+            {
+                "name":"Зимове місто",
+                "large":"http://artvitrag.com.ua/galleryReact/gallery/architecture/Winter_town.jpg",
+                "small":"http://artvitrag.com.ua/galleryReact/gallery/architecture/Winter_town.jpg",
+                "size":"30х40 cm (12х16 inches)"
+            },
+            {
+                "name":"Ніч перед різдвом",
+                "large":"http://artvitrag.com.ua/galleryReact/gallery/architecture/Christmas_Eve.jpg",
+                "small":"http://artvitrag.com.ua/galleryReact/gallery/architecture/Christmas_Eve.jpg",
+                "size":"30х30 cm (12х12 inches)"
+            }
+        ]
+    },
+    {
+        "id":"birds",
+        "category":"Пернаті",
+        "image":[
+            {
+                "name":"Птахи навесні",
+                "large":"http://artvitrag.com.ua/galleryReact/gallery/birds/Bird_in_the_spring.jpg",
+                "small":"http://artvitrag.com.ua/galleryReact/gallery/birds/Bird_in_the_spring.jpg",
+                "size":"13x18 cm (5x7 inches)"
+            },
+            {
+                "name":"Сумна сова",
+                "large":"http://artvitrag.com.ua/galleryReact/gallery/birds/Sad_owl.jpg",
+                "small":"http://artvitrag.com.ua/galleryReact/gallery/birds/Sad_owl.jpg",
+                "size":"40x30 cm (16x12 inches)"
+            },
+            {
+                "name":"Фенікс",
+                "large":"http://artvitrag.com.ua/galleryReact/gallery/birds/Phoenix.jpg",
+                "small":"http://artvitrag.com.ua/galleryReact/gallery/birds/Phoenix.jpg",
+                "size":"63x31 cm (25x12 inches)"
+            },
+            {
+                "name":"Пташки",
+                "large":"http://artvitrag.com.ua/galleryReact/gallery/birds/bird.jpg",
+                "small":"http://artvitrag.com.ua/galleryReact/gallery/birds/bird.jpg",
+                "size":"20x30 cm (8x12 inches)"
+            }
+        ]
+    },
+    {
+        "id":"childish",
+        "category":"Дитячі",
+        "image":[
+            {
+                "name":"Синій слоник",
+                "large":"http://artvitrag.com.ua/galleryReact/gallery/childish/Blue_elephant.jpg",
+                "small":"http://artvitrag.com.ua/galleryReact/gallery/childish/Blue_elephant.jpg",
+                "size":"30x30 cm (12x12 inches)"
+            },
+            {
+                "name":"Кумедні жаби",
+                "large":"http://artvitrag.com.ua/galleryReact/gallery/childish/Funny_frogs.jpg",
+                "small":"http://artvitrag.com.ua/galleryReact/gallery/childish/Funny_frogs.jpg",
+                "size":"30x40 cm (12x16 inches)"
+            },
+            {
+                "name":"Різнобарвна зграя",
+                "large":"http://artvitrag.com.ua/galleryReact/gallery/childish/Multicolor_flock.jpg",
+                "small":"http://artvitrag.com.ua/galleryReact/gallery/childish/Multicolor_flock.jpg",
+                "size":"30x30 cm (12x12 inches)"
+            }
+        ]
+    },
+    {
+        "id":"clock",
+        "category":"Годинник",
+        "image":[
+            {
+                "name":"Українське Бароко",
+                "large":"http://artvitrag.com.ua/galleryReact/gallery/clock/clock_Ukraine_baroque.jpg",
+                "small":"http://artvitrag.com.ua/galleryReact/gallery/clock/clock_Ukraine_baroque.jpg",
+                "size":"36x36 cm (14x14 inches)"
+            },
+            {
+                "name":"Кітка вночі",
+                "large":"http://artvitrag.com.ua/galleryReact/gallery/clock/clock_Cat_at_night.jpg",
+                "small":"http://artvitrag.com.ua/galleryReact/gallery/clock/clock_Cat_at_night.jpg",
+                "size":"36x36 cm (14x14 inches)"
+            },
+            {
+                "name":"листя",
+                "large":"http://artvitrag.com.ua/galleryReact/gallery/clock/clock_Leaves.jpg",
+                "small":"http://artvitrag.com.ua/galleryReact/gallery/clock/clock_Leaves.jpg",
+                "size":"36x36 cm (14x14 inches)"
+            },
+            {
+                "name":"Райська яблуня",
+                "large":"http://artvitrag.com.ua/galleryReact/gallery/clock/clock_Paradise_apple_tree.jpg",
+                "small":"http://artvitrag.com.ua/galleryReact/gallery/clock/clock_Paradise_apple_tree.jpg",
+                "size":"30x30 cm (12x12 inches)"
+            },
+            {
+                "name":"Нічна зустріч",
+                "large":"http://artvitrag.com.ua/galleryReact/gallery/clock/clock_Night_meet.jpg",
+                "small":"http://artvitrag.com.ua/galleryReact/gallery/clock/clock_Night_meet.jpg",
+                "size":"30x30 cm (12x12 inches)"
+            },
+            {
+                "name":"Метелики",
+                "large":"http://artvitrag.com.ua/galleryReact/gallery/clock/clock_Butterflies.jpg",
+                "small":"http://artvitrag.com.ua/galleryReact/gallery/clock/clock_Butterflies.jpg",
+                "size":"36x36 cm (14x14 inches)"
+            },
+            {
+                "name":"Золотий слон",
+                "large":"http://artvitrag.com.ua/galleryReact/gallery/clock/clock_Gold_elefant.jpg",
+                "small":"http://artvitrag.com.ua/galleryReact/gallery/clock/clock_Gold_elefant.jpg",
+                "size":"36x36 cm (14x14 inches)"
+            }
+        ]
+    },
+    {
+        "id":"dishesAndInterior",
+        "category":"Посуд та предмети інтер'єру",
+        "image":[
+            {
+                "name":"Морська хвиля",
+                "large":"http://artvitrag.com.ua/galleryReact/gallery/plate/Sea_wave.jpg",
+                "small":"http://artvitrag.com.ua/galleryReact/gallery/plate/Sea_wave.jpg",
+                "size":"19cm (7.5 inches)"
+            },
+            {
+                "name":"Фруктівниця",
+                "large":"http://artvitrag.com.ua/galleryReact/gallery/plate/fruit_bowl.jpg",
+                "small":"http://artvitrag.com.ua/galleryReact/gallery/plate/fruit_bowl.jpg",
+                "size":"23cm (9 inches)"
+            },
+            {
+                "name":"Ліщина",
+                "large":"http://artvitrag.com.ua/galleryReact/gallery/plate/nut_bowl.jpg",
+                "small":"http://artvitrag.com.ua/galleryReact/gallery/plate/nut_bowl.jpg",
+                "size":"13cm (5 inches)"
+            },
+            {
+                "name":"Вафельниця",
+                "large":"http://artvitrag.com.ua/galleryReact/gallery/plate/waffle_bowl.jpg",
+                "small":"http://artvitrag.com.ua/galleryReact/gallery/plate/waffle_bowl.jpg",
+                "size":"20cm (8 inches)"
+            },
+            {
+                "name":"Жовтий кіт",
+                "large":"http://artvitrag.com.ua/galleryReact/gallery/plate/Yellow_cat.jpg",
+                "small":"http://artvitrag.com.ua/galleryReact/gallery/plate/Yellow_cat.jpg",
+                "size":"320 ml (11 Fluid ounces)"
+            },
+            {
+                "name":"Смугастий кіт",
+                "large":"http://artvitrag.com.ua/galleryReact/gallery/plate/Striped_cat.jpg",
+                "small":"http://artvitrag.com.ua/galleryReact/gallery/plate/Striped_cat.jpg",
+                "size":"320 ml (11 Fluid ounces)"
+            },
+            {
+                "name":"Помаранчева сова",
+                "large":"http://artvitrag.com.ua/galleryReact/gallery/plate/Orange_owl.jpg",
+                "small":"http://artvitrag.com.ua/galleryReact/gallery/plate/Orange_owl.jpg",
+                "size":"380 ml (13 Fluid ounces)"
+            },
+            {
+                "name":"Кульки",
+                "large":"http://artvitrag.com.ua/galleryReact/gallery/plate/Multicolor_balloons.jpg",
+                "small":"http://artvitrag.com.ua/galleryReact/gallery/plate/Multicolor_balloons.jpg",
+                "size":"380 ml (13 Fluid ounces)"
+            },
+            {
+                "name":"Сонечко",
+                "large":"http://artvitrag.com.ua/galleryReact/gallery/plate/Ladybug.jpg",
+                "small":"http://artvitrag.com.ua/galleryReact/gallery/plate/Ladybug.jpg",
+                "size":"320 ml (11 Fluid ounces)"
+            },
+            {
+                "name":"Синя сова",
+                "large":"http://artvitrag.com.ua/galleryReact/gallery/plate/Blue_owl.jpg",
+                "small":"http://artvitrag.com.ua/galleryReact/gallery/plate/Blue_owl.jpg",
+                "size":"380 ml (13 Fluid ounces)"
+            },
+            {
+                "name":"Синій кіт",
+                "large":"http://artvitrag.com.ua/galleryReact/gallery/plate/Blue_cat.jpg",
+                "small":"http://artvitrag.com.ua/galleryReact/gallery/plate/Blue_cat.jpg",
+                "size":"320 ml (11 Fluid ounces)"
+            },
+            {
+                "name":"Червоний кіт",
+                "large":"http://artvitrag.com.ua/galleryReact/gallery/plate/Red_cat.jpg",
+                "small":"http://artvitrag.com.ua/galleryReact/gallery/plate/Red_cat.jpg",
+                "size":"320 ml (11 Fluid ounces)"
+            },
+            {
+                "name":"Надкушене зображення",
+                "large":"http://artvitrag.com.ua/galleryReact/gallery/plate/Bitten_image.jpg",
+                "small":"http://artvitrag.com.ua/galleryReact/gallery/plate/Bitten_image.jpg",
+                "size":"320 ml (11 Fluid ounces)"
+            },
+            {
+                "name":"Новорічна підвіска",
+                "large":"http://artvitrag.com.ua/galleryReact/gallery/plate/Christmas_tree_pendant.jpg",
+                "small":"http://artvitrag.com.ua/galleryReact/gallery/plate/Christmas_tree_pendant.jpg",
+                "size":"7.5х7.5cm(3х3 inches)"
+            }
+        ]
+    },
+    {
+        "id":"candlesticksAndlamps",
+        "category":"Свічники та світильники",
+        "image":[
+            {
+                "name":"Бамбук",
+                "large":"http://artvitrag.com.ua/galleryReact/gallery/candlesticksAndlamps/lamp3.jpg",
+                "small":"http://artvitrag.com.ua/galleryReact/gallery/candlesticksAndlamps/lamp3.jpg",
+                "size":"28x15x15"
+            },
+            {
+                "name":"Квіти",
+                "large":"http://artvitrag.com.ua/galleryReact/gallery/candlesticksAndlamps/lamp4.jpg",
+                "small":"http://artvitrag.com.ua/galleryReact/gallery/candlesticksAndlamps/lamp4.jpg",
+                "size":"28x15x15"
+            },
+            {
+                "name":"Рання ранок",
+                "large":"http://artvitrag.com.ua/galleryReact/gallery/candlesticksAndlamps/lamp5.jpg",
+                "small":"http://artvitrag.com.ua/galleryReact/gallery/candlesticksAndlamps/lamp5.jpg",
+                "size":"28x15x15"
+            }
+        ]
+    },
+    {
+        "id":"fishes",
+        "category": "Риби",
+        "image":[
+            {
+                "name":"Червоний Півник",
+                "large":"http://artvitrag.com.ua/galleryReact/gallery/fishes/Red_betta_fish.jpg",
+                "small":"http://artvitrag.com.ua/galleryReact/gallery/fishes/Red_betta_fish.jpg",
+                "size":"20x30 cm (8x12 inches)"
+            },
+            {
+                "name":"Золота рибка",
+                "large":"http://artvitrag.com.ua/galleryReact/gallery/fishes/Goldfish.jpg",
+                "small":"http://artvitrag.com.ua/galleryReact/gallery/fishes/Goldfish.jpg",
+                "size":"20x30 cm (8x12 inches)"
+            }
+        ]
+    },
+    {
+        "id":"frame",
+        "category":"Рамки",
+        "image":[
+            {
+                "name":"Листочок",
+                "large":"http://artvitrag.com.ua/galleryReact/gallery/frame/frameLeaf.jpg",
+                "small":"http://artvitrag.com.ua/galleryReact/gallery/frame/frameLeaf.jpg",
+                "size":"20x30"
+            },
+            {
+                "name":"Дитяча рамка",
+                "large":"http://artvitrag.com.ua/galleryReact/gallery/frame/Kidframe.jpg",
+                "small":"http://artvitrag.com.ua/galleryReact/gallery/frame/Kidframe.jpg",
+                "size":"20x30"
+            },
+            {
+                "name":"Квіти",
+                "large":"http://artvitrag.com.ua/galleryReact/gallery/frame/frameFlower.jpg",
+                "small":"http://artvitrag.com.ua/galleryReact/gallery/frame/frameFlower.jpg",
+                "size":"20x30"
+            }
+        ]
+    },
+    {
+        "id":"insects",
+        "category":"Комахи",
+        "image":[
+            {
+                "name":"Метелик",
+                "large":"http://artvitrag.com.ua/galleryReact/gallery/insects/Butterfly.jpg",
+                "small":"http://artvitrag.com.ua/galleryReact/gallery/insects/Butterfly.jpg",
+                "size":"15x20 cm (6x8 inches)"
+            },
+            {
+                "name":"Метелики в саду",
+                "large":"http://artvitrag.com.ua/galleryReact/gallery/insects/Butterflies_In_The_Garden.jpg",
+                "small":"http://artvitrag.com.ua/galleryReact/gallery/insects/Butterflies_In_The_Garden.jpg",
+                "size":"72x38 cm (28x15 inches)"
+            },
+            {
+                "name":"Жовтий метелик",
+                "large":"http://artvitrag.com.ua/galleryReact/gallery/insects/Yellow_butterfly.jpg",
+                "small":"http://artvitrag.com.ua/galleryReact/gallery/insects/Yellow_butterfly.jpg",
+                "size":"30x20 cm (6x8 inches)"
+            },
+            {
+                "name":"Жовтий метелик",
+                "large":"http://artvitrag.com.ua/galleryReact/gallery/insects/Yellow_butterfly1.jpg",
+                "small":"http://artvitrag.com.ua/galleryReact/gallery/insects/Yellow_butterfly1.jpg",
+                "size":"40x30 cm (16x12 inches)"
+            },
+            {
+                "name":"Синій метелик",
+                "large":"http://artvitrag.com.ua/galleryReact/gallery/insects/Blue_butterfly.jpg",
+                "small":"http://artvitrag.com.ua/galleryReact/gallery/insects/Blue_butterfly.jpg",
+                "size":"30x20 cm (12x8 inches)"
+            },
+            {
+                "name":"Різнокольоровий метелик",
+                "large":"http://artvitrag.com.ua/galleryReact/gallery/insects/Multicolor_butterfly.jpg",
+                "small":"http://artvitrag.com.ua/galleryReact/gallery/insects/Multicolor_butterfly.jpg",
+                "size":"30x20 cm (12x8 inches)"
+            },
+            {
+                "name":"Різнокольоровий метелик",
+                "large":"http://artvitrag.com.ua/galleryReact/gallery/insects/Multicolor_butterfly1.jpg",
+                "small":"http://artvitrag.com.ua/galleryReact/gallery/insects/Multicolor_butterfly1.jpg",
+                "size":"40x30 cm (16x12 inches)"
+            },
+            {
+                "name":"Яскравий метелик",
+                "large":"http://artvitrag.com.ua/galleryReact/gallery/insects/Bright_butterfly.jpg",
+                "small":"http://artvitrag.com.ua/galleryReact/gallery/insects/Bright_butterfly.jpg",
+                "size":"40x30 cm (16x12 inches)"
+            },
+            {
+                "name":"Dragonfly on the lawn",
+                "large":"http://artvitrag.com.ua/galleryReact/gallery/insects/Dragonfly_on_the_lawn.jpg",
+                "small":"http://artvitrag.com.ua/galleryReact/gallery/insects/Dragonfly_on_the_lawn.jpg",
+                "size":"13x18 cm (5x7 inches)"
+            }
+        ]
+    },
+    {
+        "id":"landscape",
+        "category":"Пейзажі",
+        "image":[
+            {
+                "name":"Сафарі жираф",
+                "large":"http://artvitrag.com.ua/galleryReact/gallery/landscape/Safari_giraffe.jpg",
+                "small":"http://artvitrag.com.ua/galleryReact/gallery/landscape/Safari_giraffe.jpg",
+                "size":"20x30 cm (8x12 inches)"
+            },
+            {
+                "name":"Літніше сафарі",
+                "large":"http://artvitrag.com.ua/galleryReact/gallery/landscape/Summer_safari.jpg",
+                "small":"http://artvitrag.com.ua/galleryReact/gallery/landscape/Summer_safari.jpg",
+                "size":"20x30 cm (8x12 inches)"
+            },
+            {
+                "name":"Сім'я слонів",
+                "large":"http://artvitrag.com.ua/galleryReact/gallery/landscape/Elephant_family.jpg",
+                "small":"http://artvitrag.com.ua/galleryReact/gallery/landscape/Elephant_family.jpg",
+                "size":"20x30 cm (8x12 inches)"
+            },
+            {
+                "name":"Одного разу на світанку",
+                "large":"http://artvitrag.com.ua/galleryReact/gallery/landscape/Once_at_dawn.jpg",
+                "small":"http://artvitrag.com.ua/galleryReact/gallery/landscape/Once_at_dawn.jpg",
+                "size":"40x30 cm (16x12 inches)"
+            },
+            {
+                "name":"Маки",
+                "large":"http://artvitrag.com.ua/galleryReact/gallery/landscape/Poppies.jpg",
+                "small":"http://artvitrag.com.ua/galleryReact/gallery/landscape/Poppies.jpg",
+                "size":"46x30 cm (18x12 inches)"
+            },
+            {
+                "name":"Червоні маки",
+                "large":"http://artvitrag.com.ua/galleryReact/gallery/landscape/Red_poppies.jpg",
+                "small":"http://artvitrag.com.ua/galleryReact/gallery/landscape/Red_poppies.jpg",
+                "size":"30x20 cm (12x8 inches)"
+            },
+            {
+                "name":"Жовтий соняшник",
+                "large":"http://artvitrag.com.ua/galleryReact/gallery/landscape/Yellow_sunflower.jpg",
+                "small":"http://artvitrag.com.ua/galleryReact/gallery/landscape/Yellow_sunflower.jpg",
+                "size":"30x20 cm (12x8 inches)"
+            },
+            {
+                "name":"Дерево життя",
+                "large":"http://artvitrag.com.ua/galleryReact/gallery/landscape/The_tree_of_life.jpg",
+                "small":"http://artvitrag.com.ua/galleryReact/gallery/landscape/The_tree_of_life.jpg",
+                "size":"40x30 cm (16x12 inches)"
+            },
+            {
+                "name":"На узліссі",
+                "large":"http://artvitrag.com.ua/galleryReact/gallery/landscape/At_the_edge_of_forest.jpg",
+                "small":"http://artvitrag.com.ua/galleryReact/gallery/landscape/At_the_edge_of_forest.jpg",
+                "size":"45x35 cm (17.7x13.8 inches)"
+            },
+            {
+                "name":"Лавандове поле",
+                "large":"http://artvitrag.com.ua/galleryReact/gallery/landscape/Lavender_Field.jpg",
+                "small":"http://artvitrag.com.ua/galleryReact/gallery/landscape/Lavender_Field.jpg",
+                "size":"34x51 cm (13x12 inches)"
+            },
+            {
+                "name":"Квіткова фантазія",
+                "large":"http://artvitrag.com.ua/galleryReact/gallery/landscape/Flower_Fantasy.jpg",
+                "small":"http://artvitrag.com.ua/galleryReact/gallery/landscape/Flower_Fantasy.jpg",
+                "size":"91x33 cm (36x13 inches)"
+            }
+        ]
+    },
+    {
+        "id":"portrait",
+        "category":"Портрети, люди",
+        "image":[
+            {
+                "name":"Індивідуальний портрет коханої родини",
+                "large":"http://artvitrag.com.ua/galleryReact/gallery/portrait/Custom_portrait_your_favorite_family3.jpg",
+                "small":"http://artvitrag.com.ua/galleryReact/gallery/portrait/Custom_portrait_your_favorite_family3.jpg",
+                "size":"40х30 cm (16x12 inches)"
+            },
+            {
+                "name":"Індивідуальний портрет коханої родини",
+                "large":"http://artvitrag.com.ua/galleryReact/gallery/portrait/Custom_portrait_your_favorite_family.jpg",
+                "small":"http://artvitrag.com.ua/galleryReact/gallery/portrait/Custom_portrait_your_favorite_family.jpg",
+                "size":"40х30 cm (16x12 inches)"
+            },
+            {
+                "name":"Індивідуальний портрет коханої родини",
+                "large":"http://artvitrag.com.ua/galleryReact/gallery/portrait/Custom_portrait_your_favorite_family2.jpg",
+                "small":"http://artvitrag.com.ua/galleryReact/gallery/portrait/Custom_portrait_your_favorite_family2.jpg",
+                "size":"40х30 cm (16x12 inches)"
+            },
+            {
+                "name":"Всі разом",
+                "large":"http://artvitrag.com.ua/galleryReact/gallery/portrait/Together.jpg",
+                "small":"http://artvitrag.com.ua/galleryReact/gallery/portrait/Together.jpg",
+                "size":"40х30 cm (16x12 inches)"
+            },
+            {
+                "name":"Погляд Чарлі",
+                "large":"http://artvitrag.com.ua/galleryReact/gallery/portrait/Charlies_look.jpg",
+                "small":"http://artvitrag.com.ua/galleryReact/gallery/portrait/Charlies_look.jpg",
+                "size":"30х20 cm (12x8 inches)"
+            },
+            {
+                "name":"Чарлі з палицею",
+                "large":"http://artvitrag.com.ua/galleryReact/gallery/portrait/Charlie_with_a_cane.jpg",
+                "small":"http://artvitrag.com.ua/galleryReact/gallery/portrait/Charlie_with_a_cane.jpg",
+                "size":"30х20 cm (12x8 inches)"
+            },
+            {
+                "name":"Чарлі спокійний",
+                "large":"http://artvitrag.com.ua/galleryReact/gallery/portrait/Charlie_Is_Calm.jpg",
+                "small":"http://artvitrag.com.ua/galleryReact/gallery/portrait/Charlie_Is_Calm.jpg",
+                "size":"30х20 cm (12x8 inches)"
+            },
+            {
+                "name":"Копія картини Тамари де Лемпіцької",
+                "large":"http://artvitrag.com.ua/galleryReact/gallery/portrait/Copy_Of_Tamara_De_Lempickas_Painting.jpg",
+                "small":"http://artvitrag.com.ua/galleryReact/gallery/portrait/Copy_Of_Tamara_De_Lempickas_Painting.jpg",
+                "size":"37х53 cm (14.5x21 inches)"
+            },
+            {
+                "name":"Фея",
+                "large":"http://artvitrag.com.ua/galleryReact/gallery/portrait/fairy.jpg",
+                "small":"http://artvitrag.com.ua/galleryReact/gallery/portrait/fairy.jpg",
+                "size":"20х30 cm (8x12 inches)"
+            }
+        ]
+    },
+    {
+        "id":"stillLife",
+        "category":"Натюрморт",
+        "image":[
+            {
+                "name":"Фруктовий чай",
+                "large":"http://artvitrag.com.ua/galleryReact/gallery/stillLife/Fruit_tea.jpg",
+                "small":"http://artvitrag.com.ua/galleryReact/gallery/stillLife/Fruit_tea.jpg",
+                "size":"30х30 cm (12x12 inches)"
+            },
+            {
+                "name":"Груша",
+                "large":"http://artvitrag.com.ua/galleryReact/gallery/stillLife/Pear.jpg",
+                "small":"http://artvitrag.com.ua/galleryReact/gallery/stillLife/Pear.jpg",
+                "size":"30х30 cm (12x12 inches)"
+            },
+            {
+                "name":"Оливки",
+                "large":"http://artvitrag.com.ua/galleryReact/gallery/stillLife/Olive.jpg",
+                "small":"http://artvitrag.com.ua/galleryReact/gallery/stillLife/Olive.jpg",
+                "size":"30х30 cm (12x12 inches)"
+            },
+            {
+                "name":"Великдень",
+                "large":"http://artvitrag.com.ua/galleryReact/gallery/stillLife/Easter.jpg",
+                "small":"http://artvitrag.com.ua/galleryReact/gallery/stillLife/Easter.jpg",
+                "size":"30х40 cm (12x16 inches)"
+            },
+            {
+                "name":"Ханука",
+                "large":"http://artvitrag.com.ua/galleryReact/gallery/stillLife/Hanukkah.jpg",
+                "small":"http://artvitrag.com.ua/galleryReact/gallery/stillLife/Hanukkah.jpg",
+                "size":"40х60 cm (16x24 inches)"
+            }
+        ]
+    },
+    {
+        "id":"magnets",
+        "category":"Магніти",
+        "image":[
+            {
+                "name":"Американський прапор",
+                "large":"http://artvitrag.com.ua/galleryReact/gallery/magnets/American_flag.jpg",
+                "small":"http://artvitrag.com.ua/galleryReact/gallery/magnets/American_flag.jpg",
+                "size":"10x7.5 cm (3.9x2.9 inches)"
+            },
+            {
+                "name":"Бджілка",
+                "large":"http://artvitrag.com.ua/galleryReact/gallery/magnets/Bee.jpg",
+                "small":"http://artvitrag.com.ua/galleryReact/gallery/magnets/Bee.jpg",
+                "size":"10x7.5 cm (3.9x2.9 inches)"
+            },
+            {
+                "name":"Щаслива бджілка",
+                "large":"http://artvitrag.com.ua/galleryReact/gallery/magnets/Bee_happy.jpg",
+                "small":"http://artvitrag.com.ua/galleryReact/gallery/magnets/Bee_happy.jpg",
+                "size":"10x7.5 cm (3.9x2.9 inches)"
+            },
+            {
+                "name":"Бути разом",
+                "large":"http://artvitrag.com.ua/galleryReact/gallery/magnets/Bee_long.jpg",
+                "small":"http://artvitrag.com.ua/galleryReact/gallery/magnets/Bee_long.jpg",
+                "size":"10x7.5 cm (3.9x2.9 inches)"
+            },
+            {
+                "name":"Риба",
+                "large":"http://artvitrag.com.ua/galleryReact/gallery/magnets/fishes.jpg",
+                "small":"http://artvitrag.com.ua/galleryReact/gallery/magnets/fishes.jpg",
+                "size":"10x7.5 cm (3.9x2.9 inches)"
+            },
+            {
+                "name":"Чорне перо",
+                "large":"http://artvitrag.com.ua/galleryReact/gallery/magnets/Black_feather.jpg",
+                "small":"http://artvitrag.com.ua/galleryReact/gallery/magnets/Black_feather.jpg",
+                "size":"10x6 cm (3.9x2.3 inches)"
+            },
+            {
+                "name":"Золоте перо",
+                "large":"http://artvitrag.com.ua/galleryReact/gallery/magnets/gold_feather.jpg",
+                "small":"http://artvitrag.com.ua/galleryReact/gallery/magnets/gold_feather.jpg",
+                "size":"10x6 cm (3.9x2.3 inches)"
+            },
+            {
+                "name":"Срібне перо",
+                "large":"http://artvitrag.com.ua/galleryReact/gallery/magnets/silver_feather.jpg",
+                "small":"http://artvitrag.com.ua/galleryReact/gallery/magnets/silver_feather.jpg",
+                "size":"10x6 cm (3.9x2.3 inches)"
+            },
+            {
+                "name":"Біле перо",
+                "large":"http://artvitrag.com.ua/galleryReact/gallery/magnets/white_feather.jpg",
+                "small":"http://artvitrag.com.ua/galleryReact/gallery/magnets/white_feather.jpg",
+                "size":"10x7.5 cm (3.9x2.9 inches)"
+            },
+            {
+                "name":"Жираф",
+                "large":"http://artvitrag.com.ua/galleryReact/gallery/magnets/giraffe.jpg",
+                "small":"http://artvitrag.com.ua/galleryReact/gallery/magnets/giraffe.jpg",
+                "size":"10x7.5 cm (3.9x2.9 inches)"
+            },
+            {
+                "name":"Статуя свободи",
+                "large":"http://artvitrag.com.ua/galleryReact/gallery/magnets/lady_liberty.jpg",
+                "small":"http://artvitrag.com.ua/galleryReact/gallery/magnets/lady_liberty.jpg",
+                "size":"10x6 cm (3.9x2.3 inches)"
+            },
+            {
+                "name":"Корабель",
+                "large":"http://artvitrag.com.ua/galleryReact/gallery/magnets/ship.jpg",
+                "small":"http://artvitrag.com.ua/galleryReact/gallery/magnets/ship.jpg",
+                "size":"10x7.5 cm (3.9x2.9 inches)"
+            },
+            {
+                "name":"Квіти",
+                "large":"http://artvitrag.com.ua/galleryReact/gallery/magnets/flowers.jpg",
+                "small":"http://artvitrag.com.ua/galleryReact/gallery/magnets/flowers.jpg",
+                "size":"10x7.5 cm (3.9x2.9 inches)"
+            },
+            {
+                "name":"Зелений листок",
+                "large":"http://artvitrag.com.ua/galleryReact/gallery/magnets/leaf_green.jpg",
+                "small":"http://artvitrag.com.ua/galleryReact/gallery/magnets/leaf_green.jpg",
+                "size":"10x7.5 cm (3.9x2.9 inches)"
+            },
+            {
+                "name":"Кленовий листок",
+                "large":"http://artvitrag.com.ua/galleryReact/gallery/magnets/maple_leaf.jpg",
+                "small":"http://artvitrag.com.ua/galleryReact/gallery/magnets/maple_leaf.jpg",
+                "size":"10x7.5 cm (3.9x2.9 inches)"
+            },
+            {
+                "name": "Санта Клаус",
+                "large":"http://artvitrag.com.ua/galleryReact/gallery/magnets/Santa_Claus.jpg",
+                "small":"http://artvitrag.com.ua/galleryReact/gallery/magnets/Santa_Claus.jpg",
+                "size":"10x7.5 cm (3.9x2.9 inches)"
+            },
+            {
+                "name":"Сніжинка",
+                "large":"http://artvitrag.com.ua/galleryReact/gallery/magnets/snowflake.jpg",
+                "small":"http://artvitrag.com.ua/galleryReact/gallery/magnets/snowflake.jpg",
+                "size":"10x7.5 cm (3.9x2.9 inches)"
+            },
+            {
+                "name":"Сніговик",
+                "large":"http://artvitrag.com.ua/galleryReact/gallery/magnets/snowman.jpg",
+                "small":"http://artvitrag.com.ua/galleryReact/gallery/magnets/snowman.jpg",
+                "size":"10x7.5 cm (3.9x2.9 inches)"
+            },
+            {
+                "name":"Сонечко",
+                "large":"http://artvitrag.com.ua/galleryReact/gallery/magnets/sun.jpg",
+                "small":"http://artvitrag.com.ua/galleryReact/gallery/magnets/sun.jpg",
+                "size":"10x7.5 cm (3.9x2.9 inches)"
+            },
+            {
+                "name":"Сліди",
+                "large":"http://artvitrag.com.ua/galleryReact/gallery/magnets/traces.jpg",
+                "small":"http://artvitrag.com.ua/galleryReact/gallery/magnets/traces.jpg",
+                "size":"10x7.5 cm (3.9x2.9 inches)"
+            },
+            {
+                "name":"Темні пухирці",
+                "large":"http://artvitrag.com.ua/galleryReact/gallery/magnets/dark_bubbles.jpg",
+                "small":"http://artvitrag.com.ua/galleryReact/gallery/magnets/dark_bubbles.jpg",
+                "size":"10x7.5 cm (3.9x2.9 inches)"
+            },
+            {
+                "name":"Фіолетові пухирці",
+                "large":"http://artvitrag.com.ua/galleryReact/gallery/magnets/purple_bubbles.jpg",
+                "small":"http://artvitrag.com.ua/galleryReact/gallery/magnets/purple_bubbles.jpg",
+                "size":"10x7.5 cm (3.9x2.9 inches)"
+            },
+            {
+                "name":"Зелені пухирці",
+                "large":"http://artvitrag.com.ua/galleryReact/gallery/magnets/green_bubbles.jpg",
+                "small":"http://artvitrag.com.ua/galleryReact/gallery/magnets/green_bubbles.jpg",
+                "size":"10x7.5 cm (3.9x2.9 inches)"
+            },
+            {
+                "name":"Червоні пухирці",
+                "large":"http://artvitrag.com.ua/galleryReact/gallery/magnets/red_bubbles.jpg",
+                "small":"http://artvitrag.com.ua/galleryReact/gallery/magnets/red_bubbles.jpg",
+                "size":"10x7.5 cm (3.9x2.9 inches)"
+            },
+            {
+                "name":"Білі пухирці",
+                "large":"http://artvitrag.com.ua/galleryReact/gallery/magnets/white_bubbles.jpg",
+                "small":"http://artvitrag.com.ua/galleryReact/gallery/magnets/white_bubbles.jpg",
+                "size":"10x7.5 cm (3.9x2.9 inches)"
+            }
+        ]
+    },
+    {
+        "id":"outlineDrawing",
+        "category":"Контурний малюнок",
+        "image":[
+            {
+                "name":"Весільні подарунки для пари",
+                "large":"http://artvitrag.com.ua/galleryReact/gallery/circuit/Wedding_gifts_for_couple.jpg",
+                "small":"http://artvitrag.com.ua/galleryReact/gallery/circuit/Wedding_gifts_for_couple.jpg",
+                "size":"13х18 cm (5х7 inches)"
+            },
+            {
+                "name":"Весільні подарунки для пари",
+                "large":"http://artvitrag.com.ua/galleryReact/gallery/circuit/Wedding_gifts_for_couple2.jpg",
+                "small":"http://artvitrag.com.ua/galleryReact/gallery/circuit/Wedding_gifts_for_couple2.jpg",
+                "size":"13х18 cm (5х7 inches)"
+            },
+            {
+                "name":"Весільні подарунки для пари",
+                "large":"http://artvitrag.com.ua/galleryReact/gallery/circuit/Wedding_gifts_for_couple3.jpg",
+                "small":"http://artvitrag.com.ua/galleryReact/gallery/circuit/Wedding_gifts_for_couple3.jpg",
+                "size":"13х18 cm (5х7 inches)"
+            },
+            {
+                "name":"Весільні подарунки для пари",
+                "large":"http://artvitrag.com.ua/galleryReact/gallery/circuit/Wedding_gifts_for_couple4.jpg",
+                "small":"http://artvitrag.com.ua/galleryReact/gallery/circuit/Wedding_gifts_for_couple4.jpg",
+                "size":"13х18 cm (5х7 inches)"
+            },
+            {
+                "name":"Весільні подарунки для пари",
+                "large":"http://artvitrag.com.ua/galleryReact/gallery/circuit/Wedding_gifts_for_couple5.jpg",
+                "small":"http://artvitrag.com.ua/galleryReact/gallery/circuit/Wedding_gifts_for_couple5.jpg",
+                "size":"13х18 cm (5х7 inches)"
+            },
+            {
+                "name":"Жінка з кішкою",
+                "large":"http://artvitrag.com.ua/galleryReact/gallery/circuit/woman_with_cat.jpg",
+                "small":"http://artvitrag.com.ua/galleryReact/gallery/circuit/woman_with_cat.jpg",
+                "size":"13х18 cm (5х7 inches)"
+            },
+            {
+                "name":"Жінка з кісками",
+                "large":"http://artvitrag.com.ua/galleryReact/gallery/circuit/woman_with_pigtails.jpg",
+                "small":"http://artvitrag.com.ua/galleryReact/gallery/circuit/woman_with_pigtails.jpg",
+                "size":"13х18 cm (5х7 inches)"
+            },
+            {
+                "name":"Жінка з довгим волоссям",
+                "large":"http://artvitrag.com.ua/galleryReact/gallery/circuit/woman_with_long_hair.jpg",
+                "small":"http://artvitrag.com.ua/galleryReact/gallery/circuit/woman_with_long_hair.jpg",
+                "size":"13х18 cm (5х7 inches)"
+            },
+            {
+                "name":"Жінка з кучерявим волоссям",
+                "large":"http://artvitrag.com.ua/galleryReact/gallery/circuit/woman_with_curly_hair.jpg",
+                "small":"http://artvitrag.com.ua/galleryReact/gallery/circuit/woman_with_curly_hair.jpg",
+                "size":"13х18 cm (5х7 inches)"
+            },
+            {
+                "name":"Іди",
+                "large":"http://artvitrag.com.ua/galleryReact/gallery/circuit/Walk_Away.jpg",
+                "small":"http://artvitrag.com.ua/galleryReact/gallery/circuit/Walk_Away.jpg",
+                "size":"13х18 cm (5х7 inches)"
+            },
+            {
+                "name":"Обійми біля моря",
+                "large":"http://artvitrag.com.ua/galleryReact/gallery/circuit/Hug_near_sea.jpg",
+                "small":"http://artvitrag.com.ua/galleryReact/gallery/circuit/Hug_near_sea.jpg",
+                "size":"13х18 cm (5х7 inches)"
+            },
+            {
+                "name":"Щастя",
+                "large":"http://artvitrag.com.ua/galleryReact/gallery/circuit/Happiness.jpg",
+                "small":"http://artvitrag.com.ua/galleryReact/gallery/circuit/Happiness.jpg",
+                "size":"13х18 cm (5х7 inches)"
+            }
+        ]
+    }
+    ]

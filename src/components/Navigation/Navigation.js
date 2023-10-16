@@ -8,6 +8,7 @@ import * as actions from '../../services/redux/language/language-actions';
 
 import LangRu from '../../image/language/ru.png';
 import LangEn from '../../image/language/en.png';
+import LangUa from '../../image/language/ua.png';
 
 import NavigationItem from './NavigationItem';
 import HomePage from '../../Pages/Home';
@@ -27,6 +28,7 @@ import AdminLoginPage from '../../Pages/admin/login';
 
 import textPageRu from '../../json/ru/navigation.json';
 import textPageEn from '../../json/en/navigation.json';
+import textPageUa from '../../json/ua/navigation.json';
 
 import './Navigation.css';
 
@@ -35,20 +37,32 @@ class Navigation extends Component {
   funcLanguage() {
     const {language } = this.props;
 // console.log(language);
-  if (language==="Ru"){    
+switch(language){
+  case "Ru": 
     return textPageRu;
-  }
-  else
-  {return textPageEn;}
+  
+  case "Ua": 
+    return textPageUa;
+  
+  case "En": 
+    return textPageEn;
+  
+  default:
+    return textPageUa;
+  
+}
  }
   render() {
-    const { languageRu,languageEn } = this.props;
+    const { languageRu,languageEn,languageUa } = this.props;
     const list=this.funcLanguage();
 
     return (
       <Fragment>
         <header>
           <div className="languageContent">
+          <div className="languageList">
+              <img src={LangUa} alt="lang_Ua" onClick={languageUa} />
+            </div>
             <div className="languageList">
               <img src={LangRu} alt="lang_Ru" onClick={languageRu} />
             </div>
@@ -118,6 +132,7 @@ const mapStateToProps=state=>{return {language: state.language.language}}
 //отправляем пропы с языком
 const mapDispatchToProps=dispatch=>{return{
   languageRu:()=>dispatch(actions.languageRu('Ru')),
+  languageUa:()=>dispatch(actions.languageUa('Ua')),
 languageEn:()=>dispatch(actions.languageEn('En'))}}
 
 export default connect(mapStateToProps,mapDispatchToProps)(Navigation)

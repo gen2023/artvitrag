@@ -9,29 +9,42 @@ import '../css/pages/galleryImage.css';
 
 import textPageRu from '../json/ru/galleryImageObject.json';
 import textPageEn from '../json/en/galleryImageObject.json';
+import textPageUa from '../json/ua/galleryImageObject.json';
 import textGeneralRu from '../json/ru/general.json';
 import textGeneralEn from '../json/en/general.json';
+import textGeneralUa from '../json/ua/general.json';
 
 import routes from '../services/routes';
 
 class GalleryImage extends Component {
   funcLanguage() {
     const {language } = this.props;
-
-  if (language==="Ru"){    
-    //  console.log(textPageRu.filter(cat=>cat.id===this.props.match.params.galleryId).map(img=>img.image));
-    return Object.assign(
-      textPageRu.filter(cat=>cat.id===this.props.match.params.galleryId),
-      textGeneralRu
-      );
-  }
-  else
-  {
-    return Object.assign(
-      textPageEn.filter(cat=>cat.id===this.props.match.params.galleryId),
-      textGeneralEn
-      );
-  };
+    switch(language){
+      case "Ru": 
+        return Object.assign(
+          textPageRu.filter(cat=>cat.id===this.props.match.params.galleryId),
+          textGeneralRu
+        );
+      
+      case "Ua": 
+        return Object.assign(
+          textPageUa.filter(cat=>cat.id===this.props.match.params.galleryId),
+          textGeneralUa
+        );
+      
+      case "En": 
+        return Object.assign(
+          textPageEn.filter(cat=>cat.id===this.props.match.params.galleryId),
+          textGeneralEn
+        );
+      
+      default:
+        return Object.assign(
+          textPageUa.filter(cat=>cat.id===this.props.match.params.galleryId),
+          textGeneralUa
+        );
+      
+    }
  }
   state = {
     name:null,

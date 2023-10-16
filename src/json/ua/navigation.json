@@ -1,0 +1,43 @@
+[{
+    "id": "1",
+    "heading": "Головна",
+    "link": "/",
+    "title":"",
+    "classNameStyle": "icon fa fa-home"
+    
+  },
+  {
+    "id": "2",
+    "heading": "Про мене",
+    "link": "/about",
+    "title":"Про мене",
+    "classNameStyle": "icon fa fa-user"    
+  },
+  {
+    "id": "3",
+    "heading": "Навчання",
+    "link": "/vitraj",
+    "title":"Навчання",
+    "classNameStyle": "icon fa fa-paint-brush"    
+  },
+  {
+    "id": "4",
+    "heading": "Галерея",
+    "link":"/gallery",
+    "title":"Мої роботи",
+    "classNameStyle": "icon fa fa-picture-o"    
+  },
+  {
+    "id": "5",
+    "heading": "Відео",
+    "link":"/video",
+    "title":"Млі відео",
+    "classNameStyle": "icon fa fa-video-camera"    
+  },
+  {
+    "id": "6",
+    "heading": "Контакти",
+    "link":"/contact",
+    "title":"Контакти",
+    "classNameStyle": "icon fa fa-phone"    
+  }]

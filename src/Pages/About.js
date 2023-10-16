@@ -9,17 +9,26 @@ import routes from '../services/routes';
 
 import textPageRu from "../json/ru/about.json";
 import textPageEn from "../json/en/about.json";
+import textPageUa from '../json/ua/about.json';
 
 class About extends Component {
   funcLanguage() {
     const {language } = this.props;
 
-  if (language==="Ru"){
-    
-    return textPageRu;
-  }
-  else
-  {return textPageEn;}
+    switch(language){
+      case "Ru": 
+        return textPageRu;
+      
+      case "Ua": 
+        return textPageUa;
+      
+      case "En": 
+        return textPageEn;
+      
+      default:
+        return textPageUa;
+      
+    }
  }
   render() {
     const list=this.funcLanguage();

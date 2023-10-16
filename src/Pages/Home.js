@@ -6,17 +6,26 @@ import '../css/pages/mobileHome.css';
 
 import textPageRu from '../json/ru/home.json';
 import textPageEn from '../json/en/home.json';
+import textPageUa from '../json/ua/home.json';
 
 class Home extends Component {
   funcLanguage() {
     const {language } = this.props;
-    // language==="Ru" ? homeTextRu : homeTextEn;
-  if (language==="Ru"){
-    
-    return textPageRu;
-  }
-  else
-  {return textPageEn;}
+    switch(language){
+      case "Ru": 
+        return textPageRu;
+      
+      case "Ua": 
+        return textPageUa;
+      
+      case "En": 
+        return textPageEn;
+      
+      default:
+        return textPageUa;
+      
+    }
+
  }
  render() {
   const list=this.funcLanguage();

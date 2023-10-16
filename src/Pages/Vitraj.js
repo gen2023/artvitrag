@@ -9,17 +9,26 @@ import '../css/pages/mobilevitraj.css';
 
 import textPageRu from "../json/ru/vitraj.json";
 import textPageEn from "../json/en/vitraj.json";
+import textPageUa from "../json/ua/vitraj.json";
 
 class Vitraj extends Component {
   funcLanguage() {
     const {language } = this.props;
 
-  if (language==="Ru"){
-    
-    return textPageRu;
-  }
-  else
-  {return textPageEn;}
+    switch(language){
+      case "Ru": 
+        return textPageRu;
+      
+      case "Ua": 
+        return textPageUa;
+      
+      case "En": 
+        return textPageEn;
+      
+      default:
+        return textPageUa;
+      
+    }
  }
  render() {
   const list=this.funcLanguage();

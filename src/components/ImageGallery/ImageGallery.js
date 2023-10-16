@@ -3,6 +3,7 @@ import {connect} from 'react-redux';
 
 import textPageRu from '../../json/ru/galleryImageObject.json';
 import textPageEn from '../../json/en/galleryImageObject.json';
+import textPageUa from '../../json/ua/galleryImageObject.json';
 import './imageGallery.css';
 import ImageGalleryItem from './ImageGalleryItem';
 
@@ -12,12 +13,20 @@ class ImageGallery extends Component {
   funcLanguage() {
     const {language } = this.props;
 
-  if (language==="Ru"){
-    
-    return textPageRu;
-  }
-  else
-  {return textPageEn;}
+    switch(language){
+      case "Ru": 
+        return textPageRu;
+      
+      case "Ua": 
+        return textPageUa;
+      
+      case "En": 
+        return textPageEn;
+      
+      default:
+        return textPageUa;
+      
+    }
  }
 
   render() {

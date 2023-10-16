@@ -6,21 +6,30 @@ import Photo from '../components/Photo';
 
 import textPageRu from '../json/ru/workPhoto.json';
 import textPageEn from '../json/en/workPhoto.json';
+import textPageUa from '../json/ua/workPhoto.json';
 import textGeneralRu from '../json/ru/general.json';
 import textGeneralEn from '../json/en/general.json';
+import textGeneralUa from '../json/ua/general.json';
 import imagePage from '../json/pages/workPhotoImage.json';
 
 class MyPhoto extends Component {
 
   funcLanguage() {
     const {language } = this.props;
-
-  if (language==="Ru"){
-    
-    return Object.assign(textPageRu,textGeneralRu);
-  }
-  else
-  { return Object.assign(textPageEn,textGeneralEn);}; 
+    switch(language){
+      case "Ru": 
+        return Object.assign(textPageRu,textGeneralRu);
+      
+      case "Ua": 
+        return Object.assign(textPageUa,textGeneralUa);
+      
+      case "En": 
+         return Object.assign(textPageEn,textGeneralEn);
+      
+      default:
+        return Object.assign(textPageUa,textGeneralUa);
+      
+    } 
 
  }
 

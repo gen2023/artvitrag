@@ -8,27 +8,41 @@ import '../css/pages/mobileMk.css';
 
 import textPageRu from "../json/ru/mkDescription.json";
 import textPageEn from "../json/en/mkDescription.json";
+import textPageUa from "../json/ua/mkDescription.json";
 import textGeneralRu from "../json/ru/mk.json";
 import textGeneralEn from "../json/en/mk.json";
+import textGeneralUa from "../json/ua/mk.json";
 
 class Mk extends Component {
   funcLanguage() {
     const {language } = this.props;
-
-    if (language==="Ru"){    
-     
-      return Object.assign(
-        textPageRu.filter(cat=>cat.categoryFind===this.props.match.params.galleryId),
-        textGeneralRu
+    switch(language){
+      case "Ru": 
+        return Object.assign(
+          textPageRu.filter(cat=>cat.categoryFind===this.props.match.params.galleryId),
+          textGeneralRu
+          );
+      
+      case "Ua": 
+        return Object.assign(
+          textPageUa.filter(cat=>cat.categoryFind===this.props.match.params.galleryId),
+          textGeneralUa
         );
+      
+      case "En": 
+        return Object.assign(
+          textPageEn.filter(cat=>cat.categoryFind===this.props.match.params.galleryId),
+          textGeneralEn
+        );
+      
+      default:
+        return Object.assign(
+          textPageUa.filter(cat=>cat.categoryFind===this.props.match.params.galleryId),
+          textGeneralUa
+        );
+      
     }
-    else
-    {
-      return Object.assign(
-        textPageEn.filter(cat=>cat.categoryFind===this.props.match.params.galleryId),
-        textGeneralEn
-        );
-    };
+
  }
   render() {
     const list=this.funcLanguage();

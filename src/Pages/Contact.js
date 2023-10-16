@@ -6,17 +6,26 @@ import '../css/pages/mobileContact.css';
 
 import textPageRu from '../json/ru/contact.json';
 import textPageEn from '../json/en/contact.json';
+import textPageUa from '../json/ua/contact.json';
 
   class Contact extends Component {
     funcLanguage() {
       const {language } = this.props;
   
-    if (language==="Ru"){
-      
-      return textPageRu;
-    }
-    else
-    {return textPageEn;}
+      switch(language){
+        case "Ru": 
+          return textPageRu;
+        
+        case "Ua": 
+          return textPageUa;
+        
+        case "En": 
+          return textPageEn;
+        
+        default:
+          return textPageUa;
+        
+      }
    }
    render() {
     const list=this.funcLanguage();

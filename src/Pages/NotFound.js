@@ -9,17 +9,26 @@ import '../css/pages/mobileNotFound.css';
 
 import textPageRu from "../json/ru/notFound.json";
 import textPageEn from "../json/en/notFound.json";
+import textPageUa from "../json/ua/notFound.json";
 
 class NotFound extends Component {
     funcLanguage() {
       const {language } = this.props;
   
-    if (language==="Ru"){
-      
-      return textPageRu;
-    }
-    else
-    {return textPageEn;}
+      switch(language){
+        case "Ru": 
+          return textPageRu;
+        
+        case "Ua": 
+          return textPageUa;
+        
+        case "En": 
+          return textPageEn;
+        
+        default:
+          return textPageUa;
+        
+      }
    }
    render() {
     const list=this.funcLanguage();

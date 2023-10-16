@@ -9,18 +9,28 @@ import '../css/pages/mobileVideo.css';
 
 import textGeneralRu from '../json/ru/videoGallery.json';
 import textGeneralEn from '../json/en/videoGallery.json';
+import textGeneralUa from '../json/ua/videoGallery.json';
 
 class Video extends Component {
 
  funcLanguage() {
   const {language } = this.props;
 
-if (language==="Ru"){
-  
-  return textGeneralRu;
+switch(language){
+  case "Ru": 
+    return textGeneralRu;
+
+  case "Ua": 
+    return textGeneralUa;
+
+  case "En": 
+    return textGeneralEn;
+
+  default:
+    return textGeneralUa;
+
 }
-else
-{return textGeneralEn;}
+
 }
 
 state = {
